@@ -1,0 +1,4 @@
+Circuit: * C:\Users\pratyusha\eSim-Workspace\flashadc\flashadc.cir
+
+Fatal Error: Unknown subcircuit called in:
+   x2 ? net-_r2-pad2_ input gnd ? net-_u10-pad1_ net-_x1-pad7_ ? lm_741

@@ -1,0 +1,67 @@
+* C:\Users\pratyusha\eSim-Workspace\flashadc\flashadc1.cir
+
+* EESchema Netlist Version 1.1 (Spice format) creation date: 03/10/22 01:34:17
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+* Sheet Name: /
+R2  Net-_R1-Pad2_ Net-_R2-Pad2_ 1k		
+R1  +5V Net-_R1-Pad2_ 1k		
+R4  Net-_R3-Pad2_ Net-_R4-Pad2_ 1k		
+R3  Net-_R2-Pad2_ Net-_R3-Pad2_ 1k		
+R6  Net-_R5-Pad2_ Net-_R6-Pad2_ 1k		
+R5  Net-_R4-Pad2_ Net-_R5-Pad2_ 1k		
+R7  Net-_R7-Pad1_ Net-_R6-Pad2_ 1k		
+R8  GND Net-_R7-Pad1_ 1k		
+X2  ? Net-_R2-Pad2_ input GND ? Net-_U10-Pad1_ Net-_X1-Pad7_ ? lm_741		
+X3  ? Net-_R3-Pad2_ input GND ? Net-_U11-Pad1_ Net-_X1-Pad7_ ? lm_741		
+X6  ? Net-_R4-Pad2_ input GND ? Net-_U12-Pad1_ Net-_X1-Pad7_ ? lm_741		
+X7  ? Net-_R5-Pad2_ input GND ? Net-_U13-Pad1_ Net-_X1-Pad7_ ? lm_741		
+X5  ? Net-_R7-Pad1_ input GND ? Net-_U15-Pad1_ Net-_X1-Pad7_ ? lm_741		
+X1  ? Net-_R1-Pad2_ input GND ? Net-_U9-Pad1_ Net-_X1-Pad7_ ? lm_741		
+X4  ? Net-_R6-Pad2_ input GND ? Net-_U14-Pad1_ Net-_X1-Pad7_ ? lm_741		
+v1  Net-_X1-Pad7_ GND DC		
+v2  GND input pwl		
+U1  input plot_v1		
+U10  Net-_U10-Pad1_ Net-_U10-Pad2_ adc_bridge_1		
+U9  Net-_U9-Pad1_ Net-_U2-Pad2_ adc_bridge_1		
+U11  Net-_U11-Pad1_ Net-_U11-Pad2_ adc_bridge_1		
+U12  Net-_U12-Pad1_ Net-_U12-Pad2_ adc_bridge_1		
+U13  Net-_U13-Pad1_ Net-_U13-Pad2_ adc_bridge_1		
+U14  Net-_U14-Pad1_ Net-_U14-Pad2_ adc_bridge_1		
+U15  Net-_U15-Pad1_ Net-_U15-Pad2_ adc_bridge_1		
+U2  GND Net-_U2-Pad2_ Net-_U16-Pad1_ pratyusha_flashadc		
+U3  Net-_U2-Pad2_ Net-_U10-Pad2_ Net-_U17-Pad1_ pratyusha_flashadc		
+U4  Net-_U10-Pad2_ Net-_U11-Pad2_ Net-_U18-Pad1_ pratyusha_flashadc		
+U5  Net-_U11-Pad2_ Net-_U12-Pad2_ Net-_U19-Pad1_ pratyusha_flashadc		
+U6  Net-_U12-Pad2_ Net-_U13-Pad2_ Net-_U20-Pad1_ pratyusha_flashadc		
+U7  Net-_U13-Pad2_ Net-_U14-Pad2_ Net-_U21-Pad1_ pratyusha_flashadc		
+U8  Net-_U14-Pad2_ Net-_U15-Pad2_ Net-_U22-Pad1_ pratyusha_flashadc		
+U16  Net-_U16-Pad1_ Net-_D1-Pad1_ dac_bridge_1		
+U17  Net-_U17-Pad1_ Net-_D4-Pad1_ dac_bridge_1		
+U18  Net-_U18-Pad1_ Net-_D6-Pad1_ dac_bridge_1		
+U19  Net-_U19-Pad1_ Net-_D8-Pad1_ dac_bridge_1		
+U20  Net-_U20-Pad1_ Net-_D10-Pad1_ dac_bridge_1		
+U21  Net-_U21-Pad1_ Net-_D11-Pad1_ dac_bridge_1		
+U22  Net-_U22-Pad1_ Net-_D12-Pad1_ dac_bridge_1		
+D3  Net-_D1-Pad1_ V_out1 eSim_Diode		
+D2  Net-_D1-Pad1_ V_out2 eSim_Diode		
+D1  Net-_D1-Pad1_ V_out3 eSim_Diode		
+D5  Net-_D4-Pad1_ V_out2 eSim_Diode		
+D4  Net-_D4-Pad1_ V_out3 eSim_Diode		
+D7  Net-_D6-Pad1_ V_out1 eSim_Diode		
+D6  Net-_D6-Pad1_ V_out3 eSim_Diode		
+D8  Net-_D8-Pad1_ V_out3 eSim_Diode		
+D10  Net-_D10-Pad1_ V_out1 eSim_Diode		
+D9  Net-_D10-Pad1_ V_out2 eSim_Diode		
+D11  Net-_D11-Pad1_ V_out2 eSim_Diode		
+D12  Net-_D12-Pad1_ V_out1 eSim_Diode		
+R11  GND V_out1 resistor		
+R10  GND V_out2 resistor		
+R9  GND V_out3 resistor		
+U25  V_out1 plot_v1		
+U24  V_out2 plot_v1		
+U23  V_out3 plot_v1		
+
+.end
